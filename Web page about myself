@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>About Charles Lo</title>
+    
+    
+    <style>
+        body
+        {
+    
+            margin: 50px;
+        }
+        table, th, td {
+            border: 1px solid white;
+            border-collapse: collapse;
+            text-align: left; 
+            vertical-align: top;
+            padding: 14px;
+        }
+        h1, h2, h3, p, li   {
+                    color: white
+                        }
+            
+            
+    </style>
+    
+    
+</head>
+    <body style="background-image: url(Images/Lightwoodbackground.jpg)"></body>
+    
+    
+    <table>
+       <tr>
+           <td>
+    
+    <h1 style="text-align: center; color: white; font-family: impact; text-shadow: 2px 2px 4px red">Välkommen!</h1>
+        <h1 style="font-family: cursive">My name is Charles Lo</h1>
+            <h2 style="font-family: cursive">Some facts about me:</h2>
+    <ul style="font-family: cursive">
+        <li>I am a boy</li>
+        <li>I am 15 years old</li>
+        <li>I am a Taiwanese Americano studying in Taipei American School</li>
+        <li>I am a huge computer science fan</li>
+        <li>I am a polyglot (Meaning I can speak multiple Languages)</li>
+            <ul style="font-family: cursive">
+                <li>Languages that I am extremely fluent at:</li>
+                    <ul style="font-family: cursive">
+                        <li>Mandarin (both simplified and Traditional)</li>
+                        <li>Hakka</li>
+                        <li>English (not really but ok...)</li>
+                    </ul>
+                <li>Languages that I can speak conversationally</li>
+                    <ul style="font-family: cursive">
+                        <li>Swedish</li>
+                        <li>Norweigian</li>
+                        <li>Dainish</li>
+                        <li>Okinawa Japanese</li>
+                    </ul>
+                <li>languages that I am still leaning</li>
+                    <ul>
+                        <li>Spanish</li>
+                        <li>English</li>
+                        <li>The Nordic Languages</li>
+                            <ul style="font-family: cursive">
+                                <li>Swedish</li>
+                                <li>Norweigian</li>
+                                <li>Dainish</li>
+                            </ul>
+                    </ul>
+            </ul>
+        <li>My favorite sports include</li>
+            <ul style="font-family: cursive">
+                <li>Table Tennis</li>
+                    <ul style="font-family: cursive">
+                        <li>I am a 1 Time U.S. National Champoinship 2018 Unrated RR event Champion</li>
+                        <li>1 Time Northern Taiwanese National Championship semi finalist</li>
+                        <li>3 Times ShingBei City under U12 Runner Up</li>
+                        <li>1 Time Tienmu Ping Pong tournament Champion</li>
+                        <li>Represented the ShuangLong Elementary Table Tennis Team in TW 2014-2016</li>
+                        <li>Represented SVTTC in US 2014-2016</li>
+                        <li>First to Represent Taipei American School in a National Championship Event</li>
+                        <li>Sponsored by Butterfly, Mizuno, Nittaku 2014-2016</li>
+                        <li><a href="https://www.stigatabletennis.com/tt_eu/" target="_blank">Sponsored by Stiga Swedish Table Tennis 2018-2019</a></li>
+                    </ul>
+                <li>Baseball</li>
+                    <ul style="font-family: cursive">
+                        <li>Gomes Golphers Fremont California 2011-2012</li>
+                        <li>Oakland Lil' Athletics 2013</li>
+                        <li>TAS MS Competitive Baseball 2018</li>
+                        <li>TAS US Varsity baseball 2018-</li>
+                    </ul>
+                        
+            </ul>
+    </ul>
+        <h3 style="color: white; font-family: cursive">Something about myself:</h3>
+            <p style="color: white; font-family: cursive">I am an ordinary boy that loves to do stupid things, I love programming, doing sports.</p>
+           </td>
+           <td>
+               <h2 style="font-family: cursive">These are some random photo(s)/ video(s) of me:</h2> <br>
+               <img src="Images/selfieinhawaii.JPG" width="750px" height="550px" style="transform: rotate(90deg); margin-top: 75px; margin-left: 25px">
+               <br><br><br><br><br><br><br><br>
+               <h3 style="font-family: cursive">A video of me in the 2018 US Nationals Cadet Prelimary round:</h3>
+               <video width="640px" height="480px" controls style= margin-top: 1000px>
+                <source src="Images/media.io_USAnationals2018.mp4.mp4" type="video/mp4">
+                <source src="Images/media.io_USAnationals2018.mp4.mp4" type="video/ogg">
+                </video> <br><br><br><br><br><br>
+               
+           
+           </td>
+        </tr>
+    </table>
+    
+    <!-- Images keep on hitting the very top of the page -->
+    
+    <!-- footer-->
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: dodgerblue;
+            color: white;
+            text-align: center;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+    </style>
+
+    
+
+    
+    
+    
+    
+    <div class="footer">
+        
+        
+    <!-- This is the contact information thing -->
+    <h1 style="color: white; text-shadow: 2px 2px 4px red ;font-family: impact">Contact me below :</h1>
+    <form action="https://postmail.invotes.com/send"
+          method="post" id="email_form">
+
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea name="text" placeholder="Message"></textarea>
+        <input type="hidden" name="access_token" value="9hlafc2elx91hgrskkqymfls" />
+        <!-- return urls can be fully qualified -OR-
+start with / for root relative -OR-
+start with . for url relative --> 
+        <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+        <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+
+
+        <input id="submit_form" type="submit" value="Send" />
+        <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
+        <p>Powered by <a href="https://postmail.invotes.com" target="_blank">PostMail</a></p>
+    </form>
+
+    <!-- optional, prevents the submit button from being pressed more than once -->
+    <script>
+        var submitButton = document.getElementById("submit_form");
+        var form = document.getElementById("email_form");
+        form.addEventListener("submit", function (e) {
+            setTimeout(function() {
+                submitButton.value = "Sending...";
+                submitButton.disabled = true;
+            }, 1);
+        });
+    </script> 
+        
+    </div>
+</html>
+    
